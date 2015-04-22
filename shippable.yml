@@ -6,6 +6,8 @@ jdk:
    - openjdk6
    - oraclejdk8
 
+build_image: shipimg/ubuntu1404_java:latest
+
 after_success:
    - mvn clean cobertura:cobertura
    - mvn test
