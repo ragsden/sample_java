@@ -11,3 +11,4 @@ build_image: shippable/minv2:latest
 after_success:
    - mvn clean cobertura:cobertura
    - mvn test
+   
