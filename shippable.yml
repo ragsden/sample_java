@@ -6,7 +6,7 @@ jdk:
    #- openjdk6
    #- oraclejdk8
 
-build_image: shippable/minv2:latest
+#build_image: shippable/minv2:latest
 
 after_success:
    - mvn clean cobertura:cobertura
